@@ -52,7 +52,7 @@ Voor het uitvoeren van deze taak nemen we een aantal stappen, we gaan:
 ### Ontwerpen
 *In de ontwerpfase maak je meerdere ontwerpen (divergeren) en neem je vervolgens beslissingen (convergeren) op basis van de door jou geformuleerde uitgangspunten. Je zorgt je dat je precies weet wat je moet gaan bouwen.*
 
-In de workshop *Trucjes met CSS 1* heb je een aantal inspirerende voorbeelden gezien van ontwerpen gerealiseerd met CSS. Ontwerp een nieuwe versie van je visitekaartje en probeer hierbij, net als bij de voorbeelden is gedaan, out-of-the-box te denken. 
+In de workshop *Trucjes met CSS 1* heb je een aantal inspirerende voorbeelden gezien van wat mogelijk is met CSS. Ontwerp een nieuwe versie van je visitekaartje en probeer hierbij, net als bij de voorbeelden is gedaan, out-of-the-box te denken. 
 
 [Hierboven](/#materiaal) staan de in de workshop getoonde voorbeelden voor als je nog even rustig wil kijken. Je kan natuurlijk ook zelf zoeken naar inspirerende voorbeelden; google bijvoorbeeld op *'Cool CSS tricks 2021'*...
 
