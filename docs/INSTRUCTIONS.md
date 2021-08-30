@@ -7,7 +7,8 @@ Je hebt een eerste versie van je visitekaartje gemaakt waar je tevreden over ben
 
 ## Context
 
-Leertaak: Experimenteer met CSS features om je visitekaartje nog toffer te maken. Deze leertaak hoort bij sprint 1 "Your Tribe". Dit is een _experimenteer_ taak.
+Leertaak: Experimenteer met CSS features om je visitekaartje nog toffer te maken.  
+Deze leertaak hoort bij sprint 1 "Your Tribe". Dit is een _experiment_ taak.
 
 ## Briefing
 Elke frontender bij [FDND](https://fdnd.nl) stelt zichzelf binnen de tribe voor door middel van een visitekaartje. Als het goed is heb je al op basis van de [duplicate leertaak](https://github.com/fdnd-task/fdnd-net-presence-duplicate) een eerste versie van je visitekaartje gemaakt. Bij deze leertaak doorloop je alle stappen van de development-lifecycle met als resultaat een experimentele versie van jouw visitekaartje, gepubliceerd via Github pages. Het Web is constant in beweging en dat geldt ook voor de ontwikkeling van CSS. Experimenteren met nieuwe features (of je verdiepen in reeds bestaande features) is een belangrijke competentie van een Frontender!
