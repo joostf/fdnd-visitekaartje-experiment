@@ -7,11 +7,14 @@ Je hebt een eerste versie van je visitekaartje gemaakt waar je tevreden over ben
 
 ## Context
 
-Leertaak: Experimenteer met CSS features om je visitekaartje nog toffer te maken.  
+Leertaak: Experimenteer met CSS features
+
 Deze leertaak hoort bij sprint 1 "Your Tribe". Dit is een _experiment_ taak.
 
 ## Briefing
-Elke frontender bij [FDND](https://fdnd.nl) stelt zichzelf binnen de tribe voor door middel van een visitekaartje. Als het goed is heb je al op basis van de [duplicate leertaak](https://github.com/fdnd-task/fdnd-net-presence-duplicate) een eerste versie van je visitekaartje gemaakt. Bij deze leertaak doorloop je alle stappen van de development-lifecycle met als resultaat een experimentele versie van jouw visitekaartje, gepubliceerd via Github pages. Het Web is constant in beweging en dat geldt ook voor de ontwikkeling van CSS. Experimenteren met nieuwe features (of je verdiepen in reeds bestaande features) is een belangrijke competentie van een Frontender!
+Ondertussen heb je als het goed is basis van de [duplicate leertaak](https://github.com/fdnd-task/fdnd-net-presence-duplicate) een eerste versie van je visitekaartje gemaakt. Bij deze leertaak doorloop je alle stappen van de development-lifecycle met als resultaat een experimentele versie van jouw visitekaartje, gepubliceerd via Github pages. 
+
+Het Web is constant in beweging en dat geldt ook voor de ontwikkeling van CSS. Experimenteren met nieuwe features (of je verdiepen in reeds bestaande features) is een belangrijke competentie van een Frontender!
 
 ## Doel van deze leertaak
 *Wat leer je in deze taak*
@@ -27,6 +30,7 @@ Volg onderstaand stappenplan binnen de [**development-lifecycle**]() _[nog linke
 
 Deze opdracht gaat over alle fases van de DLC [analyseren](#analyseren), [ontwerpen](#ontwerpen), [bouwen](#bouwen), [integreren](#integreren) en [testen](#testen).
 
+
 ### Analyseren
 *In de analysefase inventariseer je wat er moet gebeuren om een taak uit te voeren en formuleer je een aantal uitgangspunten waar je ontwerp aan moet voldoen.* 
 
@@ -40,7 +44,6 @@ Voor het uitvoeren van deze taak nemen we een aantal stappen, we gaan:
 3. jouw visitekaartje publiceren via Github pages
 4. het visitekaartje testen op klasgenoten
 5. het proces documenteren in de [README.md](../README.md)
-
 
 </details>
 
@@ -57,6 +60,8 @@ In de ontwerpfase maak je meerdere ontwerpen (divergeren) en neem je vervolgens 
 2.  Pak een A4 en maak een aantal schetsen aan de hand van het template. 
 
 3. Na bovenstaande stappen zorgvuldig doorlopen te hebben weet je ongeveer wat je gaat bouwen. Je kunt nu goed voorbereid door naar de volgende fase.
+
+4. Fork deze repository en documenteer je bevindingen in de README.md
 
 #### Materiaal
 
@@ -78,6 +83,7 @@ Heb je een mooi ontwerp gemaakt van jou visitekaartje op basis van een van de in
 
 Heb je zelf iets ontworpen en kan je niet terugvallen op een voorbeeld, dan zal je zelf moeten bedenken/uitzoeken hoe je dat met CSS kan bouwen. Met de in de workshop behandelde CSS features en onderstaande bronnen kan je al een heel eind komen! 
 
+Werk in de geforkte repository van deze leertaak. Als je aanpassingen hebt gedaan waar je tevreden over bent, kan je het comitten en pushen naar GitHub. 
 
 #### Materiaal
 
