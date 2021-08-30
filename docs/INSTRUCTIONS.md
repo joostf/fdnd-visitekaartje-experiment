@@ -104,8 +104,6 @@ Je gaat jouw aanpassing op het visitekaartje publiceren op internet!
 #### Materiaal
 
 - [duplicate leertaak](https://github.com/fdnd-task/fdnd-net-presence-duplicate)
-- [Resource](https://example.com)
-- [Resource](https://example.com)
 
 </details>
 
