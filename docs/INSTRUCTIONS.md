@@ -20,25 +20,19 @@ Elke frontender bij [FDND](https://fdnd.nl) stelt zichzelf binnen de tribe voor 
 * De (on)mogelijkheden van CSS beter leren kennen
 
 
-## Materiaal
-Hieronder vind je een aantal bronnen die je kunt gebruiken bij het maken van ontwerpbeslissingen en het implementeren van jouw ontwerp.
-
-<details>
-<summary>Bronnen</summary>
-  
-* Typography: [CSS Text Effects](https://freefrontend.com/css-text-effects/]
-
-
-</details>
-
 ## Werkwijze
+*De werkwijze volgt de fasering van de Development Life Cycle.*
+
 Volg onderstaand stappenplan binnen de [**development-lifecycle**]() _[nog linken]_ om jouw visitekaartje gestructureerd te herontwerpen, aan te passen en op Github te publiceren.
 
-<details>
-<summary>Stappenplan</summary>
+Deze opdracht gaat over alle fases van de DLC [analyseren](#analyseren), [ontwerpen](#ontwerpen), [bouwen](#bouwen), [integreren](#integreren) en [testen](#testen).
 
 ### Analyseren
 *In de analysefase inventariseer je wat er moet gebeuren om een taak uit te voeren en formuleer je een aantal uitgangspunten waar je ontwerp aan moet voldoen.* 
+
+
+<details>
+<summary>Aanpak</summary>
 
 Voor het uitvoeren van deze taak nemen we een aantal stappen, we gaan:
 1. een aantal ontwerpbeslissingen nemen op basis van de uitleg
@@ -47,51 +41,100 @@ Voor het uitvoeren van deze taak nemen we een aantal stappen, we gaan:
 4. het visitekaartje testen op klasgenoten
 5. het proces documenteren in de [README.md](../README.md)
 
----
+#### Materiaal
+
+- [Resource](https://example.com)
+- [Resource](https://example.com)
+- [Resource](https://example.com)
+
+</details>
 
 ### Ontwerpen
-*In de ontwerpfase maak je meerdere ontwerpen (divergeren) en neem je vervolgens beslissingen (convergeren) op basis van de door jou geformuleerde uitgangspunten. Je zorgt je dat je precies weet wat je moet gaan bouwen.*
+*In de ontwerpfase neem je ontwerpbeslissingen en zorg je dat je precies weet wat je moet gaan bouwen.*
 
-In de workshop *Trucjes met CSS 1* heb je een aantal inspirerende voorbeelden gezien van wat mogelijk is met CSS. Ontwerp een nieuwe versie van je visitekaartje en probeer hierbij, net als bij de voorbeelden is gedaan, out-of-the-box te denken. 
+In de ontwerpfase maak je meerdere ontwerpen (divergeren) en neem je vervolgens beslissingen (convergeren) op basis van de door jou geformuleerde uitgangspunten. Je zorgt je dat je precies weet wat je moet gaan bouwen.
 
-[Hierboven](/#materiaal) staan de in de workshop getoonde voorbeelden voor als je nog even rustig wil kijken. Je kan natuurlijk ook zelf zoeken naar inspirerende voorbeelden; google bijvoorbeeld op *'Cool CSS tricks 2021'*...
+<details>
+<summary>Aanpak</summary>
 
-Pak een A4 en maak een aantal schetsen aan de hand van het template. 
+1. In de workshop *Trucjes met CSS 1* heb je een aantal inspirerende voorbeelden gezien van wat mogelijk is met CSS. Ontwerp een nieuwe versie van je visitekaartje en probeer hierbij, net als bij de voorbeelden is gedaan, out-of-the-box te denken. 
+2.  Pak een A4 en maak een aantal schetsen aan de hand van het template. 
 
-Na bovenstaande stappen zorgvuldig doorlopen te hebben weet je ongeveer wat je gaat bouwen. Je kunt nu goed voorbereid door naar de volgende fase.
+4. Na bovenstaande stappen zorgvuldig doorlopen te hebben weet je ongeveer wat je gaat bouwen. Je kunt nu goed voorbereid door naar de volgende fase.
 
----
+#### Materiaal
+
+Hieronder staan de in de workshop getoonde voorbeelden voor als je nog even rustig wil kijken. Je kan natuurlijk ook zelf zoeken naar inspirerende voorbeelden; google bijvoorbeeld op *'Cool CSS tricks 2021'*...
+
+- Typography: [CSS Text Effects](https://freefrontend.com/css-text-effects/]
+- [Resource](https://example.com)
+- [Resource](https://example.com)
+
+</details>
 
 ### Bouwen
 *In de bouwfase realiseer je de beslissingen uit de ontwerpfase.*
 
-#### Een ontwerp realiseren
-
 Heb je een mooi ontwerp gemaakt van jou visitekaartje op basis van een van de inspirerende voorbeelden? Onderzoek hoe het voorbeeld is gemaakt door het lezen van de tutroial als dat er bij zit, of als er geen tutorial is door gebruik te maken van de *DevTools* van je browser.
 
----
+<details>
+<summary>Aanpak</summary>
+
+1. {geef de stappen}
+2. {die in deze fase}
+3. {doorlopen worden}
+
+#### Materiaal
+
+- [Resource](https://example.com)
+- [Resource](https://example.com)
+- [Resource](https://example.com)
+
+</details>
 
 ### Integreren
 *In de integratiefase voer je de aanpassingen door zodat iedereen ze kan zien.*
 
-Je gaat jouw aanpassing op het visitekaartje publiceren op internet! Doorloop hierbij dezelfde stappen als bij de [duplicate leertaak](https://github.com/fdnd-task/fdnd-net-presence-duplicate).
+Je gaat jouw aanpassing op het visitekaartje publiceren op internet! 
 
-Als het goed is gegaan kan je binnen enkele momenten jouw visitekaartje bekijken via de URL: [https://username.github.io/fdnd-visitekaartje-experiment/](https://username.github.io/fdnd-visitekaartje-experiment/).
+<details>
+<summary>Aanpak</summary>
 
-Bekijk jouw visitekaartje even uitgebreid, ga daarna verder met de volgende fase.
+1. Doorloop hierbij dezelfde stappen als bij de duplicate leertaak.
+2. Als het goed is gegaan kan je binnen enkele momenten jouw visitekaartje bekijken via de URL: [https://username.github.io/fdnd-visitekaartje-experiment/](https://username.github.io/fdnd-visitekaartje-experiment/).
+3. Bekijk jouw visitekaartje even uitgebreid, ga daarna verder met de volgende fase.
 
----
+#### Materiaal
+
+- [duplicate leertaak](https://github.com/fdnd-task/fdnd-net-presence-duplicate)
+- [Resource](https://example.com)
+- [Resource](https://example.com)
+
+</details>
 
 ### Testen
 *In de testfase controleer je of jouw aanpassingen werken zoals bedoeld.*
 
 Laat jouw visitekaartje testen door een paar klasgenoten en jouw docent. Noteer wat ze er van vinden. Ben je tevreden met het resultaat? Zo niet herhaal dan bovenstaande stappen.
 
----
+<details>
+<summary>Aanpak</summary>
+
+1. {geef de stappen}
+2. {die in deze fase}
+3. {doorlopen worden}
+
+#### Materiaal
+
+- [Resource](https://example.com)
+- [Resource](https://example.com)
+- [Resource](https://example.com)
 
 </details>
 
 ## Criteria
+*Definitions of done*
+
 Je bent klaar als je jouw proces (ontwerpbeslissingen, schetsen, inzichten en testresultaten) hebt gedocumenteerd in de [README.md](../README.md) in jouw *fork* van deze repository. Ook moet jouw visitekaartje bereikbaar zijn via gh-pages.
 
 
