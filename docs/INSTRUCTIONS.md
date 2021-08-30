@@ -15,7 +15,8 @@ Elke frontender bij [FDND](https://fdnd.nl) stelt zichzelf binnen de tribe voor 
 ## Doel van deze leertaak
 *Wat leer je in deze taak*
 
-Na het volgen van deze leertaak heb je geëxperimenteerd met, voor jou nieuwe, CSS technieken om een out-of-the-box design van je visitekaartje te realiseren. Je hebt je verdiept in de (on)mogelijkheden van CSS om dat wat je bedacht hebt te kunnen bouwen.
+* Experimenteren met (nieuwe) CSS features
+* De (on)mogelijkheden van CSS beter leren kennen
 
 
 ## Materiaal
