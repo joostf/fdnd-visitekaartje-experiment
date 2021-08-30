@@ -2,7 +2,7 @@
 
 ![Visitekaartje](VisitekaartjeExperiment.jpg "Visitekaartje")
 
-# Visitekaartje
+# Visitekaartje Experiment
 Je hebt een eerste versie van je visitekaartje gemaakt waar je tevreden over bent, dus nu is er ruimte om te experimenteren met toffe CSS features en eventueel met JavaScript. Maak jij een 3D versie van je visitekaartje? Of regel je een dark-mode theme met blend modes? Duik je in een van de nieuwe browser API's en waag je je naast CSS aan JavaScript? Bij deze leertaak mag je out-of-the-box denken!
 
 ## Context
