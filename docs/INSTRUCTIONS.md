@@ -43,7 +43,7 @@ Voor het uitvoeren van deze taak nemen we een aantal stappen, we gaan:
 2. die beslissingen inbouwen in het bestaande visitekaartje
 3. jouw visitekaartje publiceren via Github pages
 4. het visitekaartje testen op klasgenoten
-5. het proces documenteren in de [README.md](../README.md)
+5. het proces documenteren in de [README.md](../README.md) van de geforkte repository
 
 </details>
 
@@ -83,7 +83,7 @@ Heb je een mooi ontwerp gemaakt van jou visitekaartje op basis van een van de in
 
 Heb je zelf iets ontworpen en kan je niet terugvallen op een voorbeeld, dan zal je zelf moeten bedenken/uitzoeken hoe je dat met CSS kan bouwen. Met de in de workshop behandelde CSS features en onderstaande bronnen kan je al een heel eind komen! 
 
-Werk in de geforkte repository van deze leertaak. Als je aanpassingen hebt gedaan waar je tevreden over bent, kan je het comitten en pushen naar GitHub. 
+Werk in de geforkte repository van deze leertaak. Als je aanpassingen hebt gedaan waar je tevreden over bent, kan je het committen en pushen naar GitHub. 
 
 #### Materiaal
 
