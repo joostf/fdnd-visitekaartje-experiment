@@ -41,11 +41,6 @@ Voor het uitvoeren van deze taak nemen we een aantal stappen, we gaan:
 4. het visitekaartje testen op klasgenoten
 5. het proces documenteren in de [README.md](../README.md)
 
-#### Materiaal
-
-- [Resource](https://example.com)
-- [Resource](https://example.com)
-- [Resource](https://example.com)
 
 </details>
 
@@ -58,37 +53,39 @@ In de ontwerpfase maak je meerdere ontwerpen (divergeren) en neem je vervolgens 
 <summary>Aanpak</summary>
 
 1. In de workshop *Trucjes met CSS 1* heb je een aantal inspirerende voorbeelden gezien van wat mogelijk is met CSS. Ontwerp een nieuwe versie van je visitekaartje en probeer hierbij, net als bij de voorbeelden is gedaan, out-of-the-box te denken. 
+
 2.  Pak een A4 en maak een aantal schetsen aan de hand van het template. 
 
-4. Na bovenstaande stappen zorgvuldig doorlopen te hebben weet je ongeveer wat je gaat bouwen. Je kunt nu goed voorbereid door naar de volgende fase.
+3. Na bovenstaande stappen zorgvuldig doorlopen te hebben weet je ongeveer wat je gaat bouwen. Je kunt nu goed voorbereid door naar de volgende fase.
 
 #### Materiaal
 
 Hieronder staan de in de workshop getoonde voorbeelden voor als je nog even rustig wil kijken. Je kan natuurlijk ook zelf zoeken naar inspirerende voorbeelden; google bijvoorbeeld op *'Cool CSS tricks 2021'*...
 
-- Typography: [CSS Text Effects](https://freefrontend.com/css-text-effects/]
-- [Resource](https://example.com)
-- [Resource](https://example.com)
+- [CSS Text Effects](https://freefrontend.com/css-text-effects/)
+- [Card Stack Effects](https://tympanus.net/codrops/2015/10/28/effect-ideas-for-card-stacks/)
+- [Creative Link Effects](https://tympanus.net/codrops/2013/08/06/creative-link-effects/)
 
 </details>
 
 ### Bouwen
 *In de bouwfase realiseer je de beslissingen uit de ontwerpfase.*
 
-Heb je een mooi ontwerp gemaakt van jou visitekaartje op basis van een van de inspirerende voorbeelden? Onderzoek hoe het voorbeeld is gemaakt door het lezen van de tutroial als dat er bij zit, of als er geen tutorial is door gebruik te maken van de *DevTools* van je browser.
-
 <details>
 <summary>Aanpak</summary>
 
-1. {geef de stappen}
-2. {die in deze fase}
-3. {doorlopen worden}
+Heb je een mooi ontwerp gemaakt van jou visitekaartje op basis van een van de inspirerende voorbeelden? Onderzoek hoe het voorbeeld is gemaakt door het lezen van de tutorial als dat er bij zit, of als er geen tutorial is door gebruik te maken van de *DevTools* van je browser. 
+
+Heb je zelf iets ontworpen en kan je niet terugvallen op een voorbeeld, dan zal je zelf moeten bedenken/uitzoeken hoe je dat met CSS kan bouwen. Met de in de workshop behandelde CSS features en onderstaande bronnen kan je al een heel eind komen! 
+
 
 #### Materiaal
 
-- [Resource](https://example.com)
-- [Resource](https://example.com)
-- [Resource](https://example.com)
+- [MDN Styling Text](https://developer.mozilla.org/en-US/docs/Learn/CSS/Styling_text/Fundamentals)
+- [MDN Background](https://developer.mozilla.org/en-US/docs/Web/CSS/background)
+- [MDN Box Model](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Box_Model)
+- [MDN Position](https://developer.mozilla.org/en-US/docs/Web/CSS/position)
+- [Transform, Transition & Animation](https://dev.to/moreno8423/css-transforms-transitions-and-animations-2m7d)
 
 </details>
 
@@ -120,15 +117,9 @@ Laat jouw visitekaartje testen door een paar klasgenoten en jouw docent. Noteer 
 <details>
 <summary>Aanpak</summary>
 
-1. {geef de stappen}
-2. {die in deze fase}
-3. {doorlopen worden}
-
-#### Materiaal
-
-- [Resource](https://example.com)
-- [Resource](https://example.com)
-- [Resource](https://example.com)
+1. Laat jouw visitekaartje aan iedereen zien
+2. Noteer feedback
+3. Ga terug naar de analysefase voor een volgende ronde verbeteringen
 
 </details>
 
