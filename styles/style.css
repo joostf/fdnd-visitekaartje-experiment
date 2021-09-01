@@ -98,7 +98,7 @@ rect {
   stroke-width: 2rem;
   stroke-dasharray: 5% 15%;
   stroke-linecap:round;
-  animation:marching-ants .25s infinite linear;
+  animation:marching-ants 1s infinite linear;
   rx:2rem;
   opacity:.15;
 }
