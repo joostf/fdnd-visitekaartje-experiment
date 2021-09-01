@@ -54,7 +54,6 @@ article > * {
   z-index: 10;
   
 }
-
 article header {
   display:grid;
   grid-template-columns: 1fr 1fr;
