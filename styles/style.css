@@ -26,7 +26,7 @@ body {
 }
 article {
   width:40vw;
-  height:40vh;
+  height:30vh;
   position: relative;
   background: var(--primary);
   background: linear-gradient(0deg, var(--secondary) 0%, var(--primary) 100%);
@@ -56,24 +56,30 @@ article > * {
 }
 
 article header {
- display: flex;
- flex-direction: column;
- justify-content: center;
- align-items: center;
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas: 
+    "heading figure"
+    "text  figure"
+  ;
+  justify-items:flex-end
 }
 h1 {
-  margin:0 0 1rem;  
+  margin:0 0 1rem;
+  grid-area: heading;
+  align-self:flex-end;
 }
 p {
   margin: .5rem;
   color:var(--primary);
   font-weight: bold;
+  grid-area: text;
+  white-space: nowrap;
 }
 figure {
   filter: drop-shadow(0 0 .5rem rgba(0,0,0,.5));
   margin:0 0 0 2rem;
-  width:50%;
-  
+  grid-area:figure;
 }
 img {
   clip-path: circle(50% at 50% 50%);
