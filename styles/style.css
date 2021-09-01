@@ -61,12 +61,13 @@ article header {
     "heading figure"
     "text  figure"
   ;
-  justify-items:flex-end
+  justify-items:flex-end;
 }
 h1 {
-  margin:0 0 1rem;
+  margin:0;
   grid-area: heading;
   align-self:flex-end;
+  font-size: 3rem;
 }
 p {
   margin: .5rem;
@@ -77,8 +78,8 @@ p {
 }
 figure {
   filter: drop-shadow(0 0 .5rem rgba(0,0,0,.5));
-  margin:0 4rem 0 2rem;
   grid-area:figure;
+  margin:2rem;
 }
 img {
   clip-path: circle(50% at 50% 50%);
