@@ -35,7 +35,19 @@ article {
   justify-content:center;
   align-items:center;
   padding:4rem;
-  box-shadow:0 0 10rem var(--primary)
+  
+}
+article::after {
+  content:"";
+  height:100%;
+  width:100%;
+  position:absolute;
+  left:0;
+  top:0;
+  box-shadow:0 0 25rem var(--primary);
+  border-radius: 2rem;
+  opacity:.5;
+  animation:glow 2s infinite alternate linear;
 }
 article > * {
   position: relative;
@@ -54,10 +66,11 @@ h1 {
 }
 p {
   margin: .5rem;
-  color:var(--primary)
+  color:var(--primary);
+  font-weight: bold;
 }
 figure {
-  filter: drop-shadow(0 0 1rem rgba(0,0,0,.5));
+  filter: drop-shadow(0 0 .5rem rgba(0,0,0,.5));
   margin:0 0 0 2rem;
   width:50%;
   
@@ -83,12 +96,17 @@ rect {
   fill:none;
   stroke: url(#wow);
   stroke-width: 3rem;
-  stroke-dasharray: 10px 5px 20px 50px;
+  stroke-dasharray: 2% 10%;
   stroke-linecap:round;
-  animation:marching-ants .5s infinite linear;
+  animation:marching-ants .25s infinite linear;
   rx:2rem;
+  opacity:.15;
 }
 
 @keyframes marching-ants {
-  to {stroke-dashoffset:-85px;}
+  to {stroke-dashoffset:-12%;}
+}
+
+@keyframes glow {
+  to {opacity:1}
 }
