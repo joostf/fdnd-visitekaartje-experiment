@@ -95,8 +95,8 @@ rect {
   height:100%;
   fill:none;
   stroke: url(#wow);
-  stroke-width: 3rem;
-  stroke-dasharray: 2% 10%;
+  stroke-width: 2rem;
+  stroke-dasharray: 5% 15%;
   stroke-linecap:round;
   animation:marching-ants .25s infinite linear;
   rx:2rem;
@@ -104,7 +104,7 @@ rect {
 }
 
 @keyframes marching-ants {
-  to {stroke-dashoffset:-12%;}
+  to {stroke-dashoffset:-20%;}
 }
 
 @keyframes glow {
