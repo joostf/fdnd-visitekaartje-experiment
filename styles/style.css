@@ -83,10 +83,12 @@ rect {
   fill:none;
   stroke: url(#wow);
   stroke-width: 3rem;
-  stroke-dasharray: 10px 5px 20px 10px;
-  animation:marching-ants .5s infinite linear
+  stroke-dasharray: 10px 5px 20px 50px;
+  stroke-linecap:round;
+  animation:marching-ants .5s infinite linear;
+  rx:2rem;
 }
 
 @keyframes marching-ants {
-  to {stroke-dashoffset:-45px;}
+  to {stroke-dashoffset:-85px;}
 }
