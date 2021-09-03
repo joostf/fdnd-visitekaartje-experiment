@@ -1,4 +1,4 @@
 ToDo
-# text in links
-# random colors
-# fanc animations
+[ ] text in links
+[ ] random colors
+[ ] fanc animations
