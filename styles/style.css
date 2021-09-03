@@ -25,6 +25,7 @@ body {
 }
 article {
   width:45vw;
+  min-width:55rem;
   height:30vh;
   position: relative;
   border-radius:2rem;
