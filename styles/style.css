@@ -22,22 +22,27 @@ body {
   color:#10214e;
   margin:0;
   background-color: var(--secondary);
-  perspective:300px;
 }
 article {
-  width:40vw;
+  width:45vw;
   height:30vh;
   position: relative;
-  background: var(--primary);
-  background: linear-gradient(0deg, var(--secondary) 0%, var(--primary) 100%);
   border-radius:2rem;
-  display:flex;
-  justify-content:center;
-  align-items:center;
-  padding:4rem;
-  animation: breathe 5s ease-out infinite normal;
+  animation: breathe 6s ease-out infinite normal;
 }
-article::after {
+
+article > *:not(footer) {
+  position: absolute;
+  z-index: 10;
+  border-radius:2rem 0 0 2rem;
+  width:calc(100% - 7.5rem);
+  height:100%;
+  display:flex;
+  justify-content: center;
+  align-items:center;
+  flex-direction: column;
+}
+article > *:not(footer)::after {
   content:"";
   height:100%;
   width:100%;
@@ -46,13 +51,11 @@ article::after {
   top:0;
   box-shadow:0 0 25rem var(--primary);
   border-radius: 2rem;
-  opacity:.5;
+  opacity:.1;
   animation:glow 2s infinite alternate linear;
 }
-article > * {
-  position: relative;
-  z-index: 10;
-  
+article > :target {
+  z-index:200;
 }
 article header {
   display:grid;
@@ -61,32 +64,43 @@ article header {
     "heading figure"
     "text  figure"
   ;
-  justify-items:flex-end;
+  justify-items:center;
+  background: var(--primary);
+  background: linear-gradient(0deg, var(--secondary) 0%, var(--primary) 100%);
+  z-index:100;
 }
 h1 {
   margin:0;
   grid-area: heading;
-  align-self:flex-end;
+  align-self:end;
   font-size: 3rem;
+  text-shadow: 0px 1px 0px rgba(255,255,255,.3), 0px -1px 0px rgba(0,0,0,.7);
+  text-transform:uppercase;
 }
+
 p {
   margin: .5rem;
   color:var(--primary);
   font-weight: bold;
   grid-area: text;
   white-space: nowrap;
+  text-transform:uppercase;
+}
+header p {
+  align-self:start;
 }
 figure {
-  filter: drop-shadow(0 0 .5rem rgba(0,0,0,.5));
   grid-area:figure;
-  margin:2rem;
+  margin:0rem;
+  position:relative;
+  place-self:end
 }
 img {
-  clip-path: circle(50% at 50% 50%);
   filter: contrast(150%);
-  max-width: 100%;
+  /max-width: 100%;
+  height:30vh;
 }
-svg {
+header svg {
   border-radius:2rem;
   position:absolute;
   width:100%;
@@ -95,8 +109,9 @@ svg {
   left:0;
   z-index:5;
   
+  display:none
 }
-rect {
+header svg rect {
   width:100%;
   height:100%;
   fill:none;
@@ -109,12 +124,97 @@ rect {
   opacity:.15;
 }
 
+
+article section#html {
+  --html-color:rgb(230, 76, 38);
+  background-color:var(--html-color);
+  background: linear-gradient(0deg, var(--html-color) 0%, rgb(254, 195, 180) 100%);
+}
+article section#css {
+  --css-color:rgb(0, 116, 198);
+  background: var(--css-color);
+  background: linear-gradient(0deg, var(--css-color) 0%, rgb(186, 228, 253) 100%);
+}
+article section#js {
+  --js-color:rgb(247, 233, 145);
+  background-color:var(--js-color);
+  background: linear-gradient(0deg, var(--js-color) 0%, rgb(253, 251, 231) 100%);
+}
+section h2 {
+  text-shadow: 0px 1px 0px rgba(255,255,255,.3), 0px -1px 0px rgba(0,0,0,.7);
+  text-transform:uppercase;
+  font-size: 2rem;
+  color:var(--secondary)
+}
+section img {
+  position:absolute;
+  z-index:-1;
+  opacity:.1;
+  transform:scale(.8)
+}
+
+section p {
+  color: var(--secondary);
+  font-size: 5rem;
+}
+
+article footer {
+  position:absolute;
+  top:0;
+  right:0;
+  height:100%;
+  z-index:1000;
+  background-color: var(--secondary);
+  border-radius:0 2rem 2rem 0;
+  width:7.5rem;
+
+}
+
+footer ul {
+  list-style:none;
+  padding:0;
+  margin:0;
+  display:flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  height:100%
+}
+footer li {
+  
+}
+footer a {
+  color:var(--primary);
+  border:1px solid var(--primary);
+  border-radius:50%;
+  display:block;
+  width:4rem;
+  height:4rem;
+  display:flex;
+  justify-content: center;
+  align-items: flex-center;
+  margin:0 .5rem;
+}
+footer svg {
+  width:80%;
+  stroke-width:1;
+  stroke:currentColor;
+  stroke-linecap:round;
+  stroke-linejoin:round;
+  fill:none
+}
+
+/* animations */
 @keyframes marching-ants {
-  to {stroke-dashoffset:-20%;}
+  to {
+    stroke-dashoffset:-20%;
+  }
 }
 
 @keyframes glow {
-  to {opacity:1}
+  to {
+    opacity:.5
+  }
 }
 
 @keyframes breathe {
