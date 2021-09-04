@@ -120,7 +120,7 @@ figcaption {
   flex-direction:column;
   justify-content: center;
   align-items: flex-start;
-  background-color: var(--secondary);
+  background-color: var(--primary);
   padding-left: 2rem;
 }
 figcaption a {
@@ -133,6 +133,7 @@ figcaption a {
   opacity:0;
   transform:translateX(100%);
   transition:.25s ease-in;
+  color:var(--secondary)
 }
 figcaption a:hover {
   text-decoration: underline;
@@ -205,8 +206,6 @@ article footer {
   background-color: var(--secondary);
   border-radius:0 2rem 2rem 0;
   width:7.5rem;
-  border:1px solid var(--primary);
-  border-width:0 0 0 1px;
 }
 
 footer ul {
