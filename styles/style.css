@@ -42,6 +42,7 @@ article > *:not(footer) {
   justify-content: center;
   align-items:center;
   flex-direction: column;
+  overflow:hidden;
 }
 article > header::after {
   content:"";
@@ -241,6 +242,11 @@ svg {
   stroke-linecap:round;
   stroke-linejoin:round;
   fill:none
+}
+article section#js svg {
+  position:absolute;
+  width:30rem;
+  right:4rem
 }
 
 /* animations */
