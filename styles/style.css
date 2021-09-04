@@ -135,6 +135,10 @@ figcaption a {
   transition:.25s ease-in;
   color:var(--secondary)
 }
+figcaption a:nth-child(2) {transition-delay: .05s; }
+figcaption a:nth-child(3) {transition-delay: .1s;}
+figcaption a:nth-child(4) {transition-delay: .15s;}
+figcaption a:nth-child(5) {transition-delay: .2s;}
 figcaption a:hover {
   text-decoration: underline;
 }
@@ -151,12 +155,13 @@ figure img {
   left:0;
   top:0;
   z-index:10;
-  transition:.25s ease-in;
+  transition:.25s .3s ease-in;
 
   pointer-events: none;
 }
 figure:hover img {
   transform:translateX(101%);
+  transition-delay:0s
 }
 figure:hover a {
   opacity:1;
