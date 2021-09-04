@@ -1,5 +1,1 @@
-ToDo
-- text in links
-- random colors
-- fancy animations
-- responsiviness
+Icons form [Tabler Icons](https://tablericons.com/)
