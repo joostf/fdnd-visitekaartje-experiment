@@ -42,7 +42,6 @@ article > *:not(footer) {
   justify-content: center;
   align-items:center;
   flex-direction: column;
-  overflow:hidden;
 }
 article > header::after {
   content:"";
@@ -145,7 +144,7 @@ figcaption svg {
   top:calc(50% - 1.5rem);
 }
 
-figure  img {
+figure img {
   position:absolute;
   width:100%;
   height:100%;
@@ -246,7 +245,9 @@ svg {
 article section#js svg {
   position:absolute;
   width:30rem;
-  right:4rem
+  right:4rem;
+  top:8rem;
+  overflow:hidden;
 }
 
 /* animations */
