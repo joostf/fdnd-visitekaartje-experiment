@@ -159,11 +159,13 @@ figure img {
 
   pointer-events: none;
 }
-figure:hover img {
+figure:hover img,
+body.tabbed figure img {
   transform:translateX(101%);
   transition-delay:0s
 }
-figure:hover a {
+figure:hover a,
+body.tabbed figure a {
   opacity:1;
   transform:translateX(0)
 }
