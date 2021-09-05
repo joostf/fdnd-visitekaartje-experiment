@@ -32,10 +32,7 @@ function checkTabPress(e) {
 }
 function checkMouseMove() {
     console.dir(document.activeElement.tagName)
-    if(document.activeElement.tagName !== 'A') {
-        body.classList.remove('tabbed')
-    }
-    //!document.isActiveElement && body.classList.remove('tabbed')  
+    document.activeElement.tagName !== 'A' && body.classList.remove('tabbed')
 }
 
 
