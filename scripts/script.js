@@ -22,19 +22,6 @@ tlMain.set(robot, {x:200, y:50})
 tlArms.to(leftArm, .25, {rotation:10, transformOrigin:'100% 0%'})
         .to(rightArm, .25, {rotation:-100, transformOrigin:'0% 0%'})
   
-/* events */
-
-
-function checkTabPress(e) {
-    e.keyCode == 9 && body.classList.add('tabbed')
-}
-function checkMouseMove() {
-    document.activeElement.tagName !== 'A' && body.classList.remove('tabbed')
-}
-
-
-body.addEventListener('keyup', checkTabPress)
-document.addEventListener('mousemove', checkMouseMove)
 
 /* helpers */
 function $ (el) {

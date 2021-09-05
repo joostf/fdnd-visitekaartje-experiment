@@ -160,12 +160,12 @@ figure img {
   pointer-events: none;
 }
 figure:hover img,
-body.tabbed figure img {
-  transform:translateX(101%);
+figure:focus-within img {
+  transform:translateX(30rem);
   transition-delay:0s
 }
 figure:hover a,
-body.tabbed figure a {
+figure:focus-within a {
   opacity:1;
   transform:translateX(0)
 }
