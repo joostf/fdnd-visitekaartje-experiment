@@ -26,9 +26,7 @@ tlArms.to(leftArm, .25, {rotation:10, transformOrigin:'100% 0%'})
 
 
 function checkTabPress(e) {
-    if (e.keyCode == 9) {
-        body.classList.add('tabbed')
-    }
+    e.keyCode == 9 && body.classList.add('tabbed')
 }
 function checkMouseMove() {
     document.activeElement.tagName !== 'A' && body.classList.remove('tabbed')
